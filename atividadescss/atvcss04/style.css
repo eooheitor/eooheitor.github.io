@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .centered-div {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+  }
+  .centered-div {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  padding: 5px; /* Adicionando padding */
+}
+.top-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.top-right {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.bottom-left {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+.bottom-right {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+p {
+    margin: 0;
+    padding: 10px;
+  }
+  .green {
+    color: green;
+  }
+  .blue {
+    color: blue;
+  }
+  a:link {
+    color: blue; /* Link não visitado */
+    text-decoration: none;
+  }
+  a:visited {
+    color: purple; /* Link visitado */
+  }
+  a:hover {
+    color: red; /* Mouse sobre o link */
+    text-decoration: underline;
+  }
+  ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      li {
+        margin: 5px;
+        padding-left: 20px;
+        background: url('logo-fluminense-2048.png') no-repeat left center;
+        background-size: 16px 16px;
+      }
